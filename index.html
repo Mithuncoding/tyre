@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tire Crack Detection System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="history-panel" id="historyPanel">
+            <div class="history-header">
+                <h3>Recent Analyses</h3>
+                <button class="close-history" id="closeHistory">×</button>
+            </div>
+            <div id="historyList"></div>
+        </div>
+        <button class="history-toggle" id="toggleHistory">
+            <i class="fas fa-history"></i>
+        </button>
+        
+        <h1>Tire Crack Detection System</h1>
+        <div class="upload-options">
+            <div class="button-group">
+                <label class="upload-btn">
+                    <i class="fas fa-upload"></i>
+                    Choose Image
+                    <input type="file" id="imageInput" accept="image/*" hidden>
+                </label>
+                <button class="paste-btn" id="pasteBtn">
+                    <i class="fas fa-paste"></i>
+                    Paste Image
+                </button>
+            </div>
+        </div>
+        <div class="preview-section">
+            <img id="imagePreview" src="#" alt="Preview" style="display: none;">
+        </div>
+        <div class="result-section">
+            <div id="loading" style="display: none;">Analyzing...</div>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
