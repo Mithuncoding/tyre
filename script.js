@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyDeTK0P8wouQMW5kUyVU8HsU3Bp7ECtwHY';
+const API_KEY = 'AIzaSyAVPwa-b7U7vOwLdLEbqeS9dwOSCmhy7og';
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
 const HISTORY_KEY = 'tireAnalysisHistory';
 
